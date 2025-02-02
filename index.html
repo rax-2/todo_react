@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./public/b.png" type="image/x-icon">
+  <title>Todo app</title>
+</head>
+
+<body class="bg-[#07261D]">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+  const titles = ["Worlds Best todo App!", "Todo App by Rakesh"];
+    let index = 0;
+
+    setInterval(() => {
+      document.title = titles[index];
+      index = (index + 1) % titles.length;
+    }, 1000); // Change title every second
+
+    function changeFavicon() {
+            const favicons = ["./public/b.png", "./public/a.png", ];
+            let index = 0;
+
+            setInterval(() => {
+                const link = document.querySelector("link[rel='icon']") || document.createElement("link");
+                link.rel = "icon";
+                link.href = favicons[index];
+                document.head.appendChild(link);
+
+                index = (index + 1) % favicons.length;
+            }, 1000); // Change favicon every second
+        }
+
+        changeFavicon();
+  </script>
+</body>
+
+</html>
