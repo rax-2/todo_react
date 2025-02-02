@@ -9,6 +9,6 @@ export default defineConfig({
   ],
   server:{
 
-    allowedHosts: ['recycling-cumulative-internal-steam.trycloudflare.com'],
+    allowedHosts: ['todo-app-rosy-six-40.vercel.app'],
   }
 })
