@@ -69,6 +69,7 @@ export default function Card({ data, index }) {
                     className='bg-[#F24405] p-1 rounded cursor-pointer m-1'
                     onClick={() => {
                         dispatch(deleteTodo(index));
+                        dispatch(setSwitchofAddCtrl(false))
                     }}
                 >
                     <MdDeleteForever className='text-[#EAF205] text-[24px]' />
