@@ -51,9 +51,6 @@ npm i @reduxjs/toolkit react-redux tailwindcss @tailwindcss/vite react-icons --s
 ## 🤝 Contributing
 Feel free to fork this repository and submit pull requests to enhance the project.
 
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
-
 ---
 Developed for React practice and learning concepts. 🚀
 
