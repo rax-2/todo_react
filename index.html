@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="./public/b.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./public/a.png" type="image/x-icon">
   <title>Todo app</title>
 </head>
 
@@ -21,21 +21,6 @@
       index = (index + 1) % titles.length;
     }, 1000); // Change title every second
 
-    function changeFavicon() {
-            const favicons = ["./public/b.png", "./public/a.png", ];
-            let index = 0;
-
-            setInterval(() => {
-                const link = document.querySelector("link[rel='icon']") || document.createElement("link");
-                link.rel = "icon";
-                link.href = favicons[index];
-                document.head.appendChild(link);
-
-                index = (index + 1) % favicons.length;
-            }, 1000); // Change favicon every second
-        }
-
-        changeFavicon();
   </script>
 </body>
 
