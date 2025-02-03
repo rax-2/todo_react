@@ -21,10 +21,11 @@ A simple and efficient Todo App built with React, Redux, and TailwindCSS. It all
 - React Icons
 
 ## 📸 Screenshots
-(Add image URLs below)
 
 ![Screenshot 1](https://github.com/rax-2/todo_react/blob/main/todo-app-rosy-six-40.vercel.app_(Samsung%20Galaxy%20S20%20Ultra)%20(1).png)
-![Screenshot 2]([[IMAGE_URL_HERE](https://github.com/rax-2/todo_react/blob/main/todo-app-rosy-six-40.vercel.app_(Samsung%20Galaxy%20S20%20Ultra)%20(1).png)]
+![Screenshot 2](https://github.com/rax-2/todo_react/blob/main/todo-app-rosy-six-40.vercel.app_(Samsung%20Galaxy%20S20%20Ultra)%20(2).png)
+<img src="https://github.com/rax-2/todo_react/blob/main/todo-app-rosy-six-40.vercel.app_(Samsung%20Galaxy%20S20%20Ultra)%20(1).png" alt="Screenshot 1" height="300">
+<img src="https://github.com/rax-2/todo_react/blob/main/todo-app-rosy-six-40.vercel.app_(Samsung%20Galaxy%20S20%20Ultra)%20(2).png" alt="Screenshot 2" height="300">
 
 ## 📦 Installation & Setup
 
